@@ -96,7 +96,15 @@ footer a{
     background: rgb(144, 144, 150);
     border-radius: 10px ;
     padding: 20px;
+    height: 200px;
     width: 200px;
+    text-align: center;
+}
+.item p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(16, 13, 13);
+    margin: 10px 0 0 0;
 }
 .item:hover{
     padding: 35px;
