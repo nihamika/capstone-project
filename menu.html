@@ -71,5 +71,16 @@
                 &copy; 2025 YumYum. All rights reserved.
             </p>
         </footer>
+    <script>
+        const items = document.querySelectorAll(".item");
+
+        items.forEach(item => {
+            item.addEventListener("click", function() {
+                const foodName = item.querySelector("img").alt;
+                const price = item.querySelector("p").innerText;
+                alert(`You selected: ${foodName} \nPrice: ${price}`);
+            });
+        });
+    </script>
 </body>
 </html>
